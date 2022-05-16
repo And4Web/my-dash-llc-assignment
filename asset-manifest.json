@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-dash-llc-assignment/static/css/main.073c9b0a.css",
+    "main.js": "/my-dash-llc-assignment/static/js/main.60a4d2e8.js",
+    "static/js/787.d105f98e.chunk.js": "/my-dash-llc-assignment/static/js/787.d105f98e.chunk.js",
+    "index.html": "/my-dash-llc-assignment/index.html",
+    "main.073c9b0a.css.map": "/my-dash-llc-assignment/static/css/main.073c9b0a.css.map",
+    "main.60a4d2e8.js.map": "/my-dash-llc-assignment/static/js/main.60a4d2e8.js.map",
+    "787.d105f98e.chunk.js.map": "/my-dash-llc-assignment/static/js/787.d105f98e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.60a4d2e8.js"
+  ]
+}
