@@ -1,9 +1,10 @@
 import "./App.css";
+import FormSection from "./components/formSection/FormSection";
 
 function App() {
   return (
     <div className="App">
-      <h1>my dash</h1>
+      <FormSection />
     </div>
   );
 }
