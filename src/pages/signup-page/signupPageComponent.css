@@ -1,0 +1,29 @@
+.signup_page{
+  display: flex;
+}
+.signup_page .left_section{
+  height: 100vh;
+  width: 50%;
+  background-color: brown;
+}
+.signup_page .right_section{
+  height: 100vh;
+  width: 50%;
+}
+@media (max-width: 840px){
+  .signup_page{
+    flex-direction: column;
+  }
+  .signup_page .left_section{    
+    width: 100%;    
+  }
+  .signup_page .right_section{    
+    width: 100%;
+  }
+}
+@media (max-width: 530px){
+  html{
+    font-size: 70%;
+  }
+ 
+}

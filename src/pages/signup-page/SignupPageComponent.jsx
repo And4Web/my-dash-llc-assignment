@@ -1,8 +1,18 @@
 import React from "react";
-import "./signupPageComponent.scss";
+import FormSection from "../../components/formSection/FormSection";
+import "./signupPageComponent.css";
 
 function SignupPageComponent() {
-  return <div>Signup-page-component</div>;
+  return (
+    <>
+      <div className="signup_page">
+        <div className="left_section"></div>
+        <div className="right_section">
+          <FormSection />
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default SignupPageComponent;
