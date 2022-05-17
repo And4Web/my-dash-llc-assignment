@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./formSection.css";
 import FormInput from "../formInput/FormInput";
 
@@ -47,10 +48,9 @@ const FormSection = () => {
       name: "fullname",
       type: "text",
       // placeholder: "Your full name",
-      errorMessage:
-        "Your name should be 3-16 characters and shouldn't include any special character!",
+      errorMessage: "Your name should be 3-16 characters",
       label: "Your full name",
-      pattern: "^[A-Za-z0-9]{3,16}$",
+      // pattern: "^[A-Za-z0-9]",
       required: true,
     },
     {
@@ -70,6 +70,13 @@ const FormSection = () => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
+  const navigate = useNavigate();
+  const enterDash = () => {
+    if (values) {
+      navigate("/chart");
+    }
+  };
+
   return (
     <div className="form_section">
       <form onSubmit={handleSubmit}>
@@ -86,7 +93,9 @@ const FormSection = () => {
           <input type="checkbox" />
           <p>I read and agree Terms and Conditions.</p>
         </div>
-        <button>Create account</button>
+        <button type="button" onClick={enterDash}>
+          Create account
+        </button>
       </form>
     </div>
   );
