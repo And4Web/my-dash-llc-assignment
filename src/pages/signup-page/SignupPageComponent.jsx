@@ -11,7 +11,7 @@ function SignupPageComponent() {
             <h2>choose a date range</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
-              consequatur.
+              consequatur. Lorem ipsum dolor sit amet, consectetur
             </p>
           </div>
         </div>

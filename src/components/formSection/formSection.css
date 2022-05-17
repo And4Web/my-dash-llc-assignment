@@ -1,25 +1,21 @@
-.app {
+.form_section {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-image: linear-gradient(120deg, #ebedee 0%, #fdfbfb 100%);
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
-
 form{
     background-color: white;
-    padding: 0px 60px;
+    padding: 0px 5rem;
     border-radius: 10px;
 }
 
 h1{
-    color: rgb(77, 1, 77);
+    color: black;
     text-align: center;
 }
 
@@ -28,7 +24,7 @@ button{
     height: 50px;
     padding: 10px;
     border: none;
-    background-color: rebeccapurple;
+    background-color: rgb(57, 120, 246);
     color: white;
     border-radius: 5px;
     font-weight: bold;
@@ -36,4 +32,15 @@ button{
     cursor: pointer;
     margin-top: 15px;
     margin-bottom: 30px;
+}
+.agreement{
+  display: flex;
+  align-items: center;
+
+}
+.agreement input{
+  margin-left: .1rem;
+}
+.agreement p{
+  margin-left: .8rem;
 }
