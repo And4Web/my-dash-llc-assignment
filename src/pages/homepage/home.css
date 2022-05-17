@@ -1,18 +1,33 @@
 .home{
+  height: 100vh;
+  width: 100%;  
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);   
+  position: relative;
+}
+.home .back_image{
+  object-fit: cover;
+  width: auto;
+  height: 100%;
+}
+.home .home_content{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  right: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
-button{
+.home_button{
   height: auto;
   width: auto;
   background-color: #f8f8f8;
   color: purple;
   box-shadow: .1rem .1rem .5rem plum;
 }
-button:hover{
+.home_button:hover{
   color: #f8f8f8;
   background-color: purple;
   transform: scale(1.1);

@@ -10,8 +10,14 @@ function Home() {
   };
   return (
     <div className="home">
-      <h1>Home Page</h1>
-      <button onClick={() => handleClick("signup")}> Sign Up</button>
+      <img className="back_image" src={require("../../assignImage.png")} />
+      <div className="home_content">
+        <h1>MyDash LLC Home Page</h1>
+        <button className="home_button" onClick={() => handleClick("signup")}>
+          {" "}
+          Sign Up
+        </button>
+      </div>
       {/* <button onClick={() => handleClick("chart")}>To chart page</button> */}
     </div>
   );
