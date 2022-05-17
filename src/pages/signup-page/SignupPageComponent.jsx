@@ -7,6 +7,7 @@ function SignupPageComponent() {
     <>
       <div className="signup_page">
         <div className="left_section">
+          <img src={require("../../assignImage.png")} />
           <div className="content">
             <h2>choose a date range</h2>
             <p>
